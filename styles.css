@@ -22,9 +22,25 @@ body {
 
 button {
     padding: 10px 20px;
-    font-size: 16px;
-    margin: 10px;
+    font-size: 1em;
+    color: white;
+    background-color: #ae00ff;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #b3009b;
+}
+
+button:active {
+    background-color: #c100f1;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
 
 #mensagem {
     display: none;
